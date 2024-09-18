@@ -66,4 +66,8 @@ export class FrutitlistComponent {
       reviews:[{name: "Kevin W.", text: "Ganz gut in der Regel!"},{name: "Oliver J.", text: "Absoluter Favorit beim Frühstück"}],
     },
   ];
+
+  numLog(index: number) {
+    console.log(index);
+  }
 }

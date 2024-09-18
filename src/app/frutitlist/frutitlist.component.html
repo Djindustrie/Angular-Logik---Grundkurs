@@ -1,6 +1,6 @@
 <div class="fruitlist_content">
     @for(singelFruit of fruitlist; track singelFruit.name; let index =  $index){
         
-        <app-singelfruit [fruit]="singelFruit"></app-singelfruit>
+        <app-singelfruit (click)="numLog(index)" [fruit]="singelFruit"></app-singelfruit>
     }
 </div>
