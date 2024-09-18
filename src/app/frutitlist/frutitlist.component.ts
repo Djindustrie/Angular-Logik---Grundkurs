@@ -12,7 +12,8 @@ export class FrutitlistComponent {
 
   howItWorks = "In dieser Liste finden Sie eine Auswahl an Obstsorten. Klicken Sie auf die jeweilige Obstsorte, um mehr Informationen zu erhalten. Sie können auch eine Bewertung abgeben, wenn Sie möchten.";
 
-  fontColor = 'green'
+  fontColorGood = 'green'
+  fontColorBad = 'red'
 
   fruitlist = [
     {
