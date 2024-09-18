@@ -1,13 +1,16 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-frutitlist',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './frutitlist.component.html',
   styleUrl: './frutitlist.component.scss'
 })
 export class FrutitlistComponent {
+
+  howItWorks = "In dieser Liste finden Sie eine Auswahl an Obstsorten. Klicken Sie auf die jeweilige Obstsorte, um mehr Informationen zu erhalten. Sie können auch eine Bewertung abgeben, wenn Sie möchten.";
 
   fruitlist = [
     {
