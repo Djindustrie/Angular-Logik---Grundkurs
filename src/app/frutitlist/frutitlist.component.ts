@@ -67,6 +67,13 @@ export class FrutitlistComponent {
     },
   ];
 
+  addComment(comment: string, index: number) {
+   this.fruitlist[index].reviews.push({
+      name: "Schlangenwürger",
+      text: comment,
+   })    
+  }
+
   nameLog(name: string) {
     console.log(name);
   }
